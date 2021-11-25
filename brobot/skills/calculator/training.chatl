@@ -1,0 +1,51 @@
+%[calc_add]
+  ~[question] @[number1] plus @[number2]
+  add @[number1] plus @[number2]
+  add @[number1] and @[number2]
+
+%[calc_subtract]
+  ~[question] is @[number1] ~[subtract] @[number2]
+  subtract @[number1] by @[number2]
+  subtract @[number1] and @[number2]
+  subtract @[number1] minus @[number2]
+  subtract @[number1] with @[number2]
+
+%[calc_multiply]
+  ~[question] @[number1] ~[multi] @[number2]
+  multiply @[number1] by @[number2]
+  multiply @[number1] and @[number2]
+  multiply @[number1] times @[number2]
+  multiply @[number1] with @[number2]
+
+%[calc_divide]
+  ~[question] @[number1] ~[divide] @[number2]
+  divide @[number1] by @[number2]
+  divide @[number1] and @[number2]
+  divide @[number1] over @[number2]
+  divide @[number1] with @[number2]
+
+~[question]
+  what is
+  whats
+  calculate
+
+~[divide]
+  divided by
+  divide
+  over
+
+~[multi]
+  times
+  multiplied by
+  multiply
+
+~[subtract]
+  minus
+  subtract
+  subtracted by
+
+@[number1](type=snips/number)
+  1
+
+@[number2](type=snips/number)
+  1

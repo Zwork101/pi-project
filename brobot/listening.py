@@ -1,4 +1,4 @@
-from subprocess import Popen, PIPE, STDOUT, DEVNULL
+from subprocess import Popen, PIPE, DEVNULL
 # from signal import SIGINT
 import os
 import time
@@ -19,7 +19,7 @@ def await_name(trigger = "bro"):
             break
         # p.send_signal(SIGINT)
     p.kill()
-    print(decipher_text())
+    return decipher_text()
 
 def decipher_text():
     r = sr.Recognizer()

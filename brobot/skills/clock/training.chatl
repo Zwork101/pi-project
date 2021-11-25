@@ -1,0 +1,21 @@
+%[what_time]
+  what time is it
+  whats the time
+  give me the time
+  time
+
+%[how_long]
+  how long until @[time]
+  how long till @[time]
+  how much longer until @[time]
+  how much longer till @[time]
+
+%[what_day]
+  what day is it
+  what day is it @[relative]
+
+@[time](type=snips/time)
+  five thirty
+
+@[relative](type=snips/date)
+  tommarow
